@@ -15,6 +15,11 @@ public class FizzBuzzTest {
 		fizzBuzz = new FizzBuzz();
 	}
 
+	@Test
+	public void testGivenNumberIsValidOrNot() {
+		assertFinal(0, "0");
+	}
+
 	/**
 	 * This method should test whether given number is returned if it is not
 	 * multiples of 3 and 5 or not
